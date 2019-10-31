@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val dog = Dog("ポチ", 3, "baseball")
+        val dog = Dog("ポチ", 3)
 
         dog.move()
 
